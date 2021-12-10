@@ -1,0 +1,44 @@
+.progress-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.progress-bars, .progress-point {
+    list-style: none;
+    padding: 0;
+}
+
+.progress-bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-point {
+    padding-bottom: 1.5rem;
+    border-left: 4px solid #5FA8D3;
+    position: relative;
+    flex-grow: 1;
+}
+
+.progress-point:last-child {
+    border: 0px;
+    padding-bottom: 0;
+}
+
+.progress-point:before {
+    content: '';
+    background: #5FA8D3;
+    border: 8px solid #5FA8D3;
+    position: absolute;
+    left: -9px;
+    top: 0px;
+    border-radius: 50%;
+}
+
+.progress-content {
+    display: flex;
+    flex-direction: column;
+}

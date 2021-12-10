@@ -1,23 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import DivWithProgress from './components/DivWithProgress';
+import Project from './components/Projects';
+
+const proj1_details = ["works", "test"];
+const proj1_stack = ["blah", "blah"];
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DivWithProgress 
+        projects={
+          [
+            <Project 
+              project_title="test"
+              date="may 10, 2001"
+              project_details={proj1_details}
+              project_stack={proj1_stack}
+            />,
+            <Project 
+              project_title="blah 1"
+              date="may 15, 2001"
+              project_details={proj1_details}
+              project_stack={proj1_stack}
+            />,
+            <Project 
+              project_title="blah 2"
+              date="may 15, 2001"
+              project_details={proj1_details}
+              project_stack={proj1_stack}
+            />,
+            <Project 
+              project_title="blah 3"
+              date="may 15, 2001"
+              project_details={proj1_details}
+              project_stack={proj1_stack}
+            />
+          ]
+        }
+      />
     </div>
   );
 }
