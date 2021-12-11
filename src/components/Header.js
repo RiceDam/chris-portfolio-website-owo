@@ -5,7 +5,8 @@ function TitleHeader() {
     return (
         <div className="TitleHeader">
             <div className="TextColumn">
-                <h1 className="Title">Hi my name is Chris Raganit owo</h1>
+                <span className="Title">Hi my name is Chris Raganit owo</span>
+                <span className="Subtitle">owo hi my name is chris raganit and i like eric :3</span>
             </div>
             <div className="ImageColumn">
                 <div className="ImageDiv"></div>
