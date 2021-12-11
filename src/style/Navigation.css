@@ -1,0 +1,10 @@
+.NavigationMenu {
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    height: 8vh;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+}
