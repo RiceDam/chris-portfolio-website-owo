@@ -9,7 +9,7 @@ function TitleHeader() {
                 <span className="Subtitle">owo hi my name is chris raganit and i like eric :3</span>
             </div>
             <div className="ImageColumn">
-                <div className="ImageDiv"></div>
+                <img src={HeaderImage} />
             </div>
         </div>
     );

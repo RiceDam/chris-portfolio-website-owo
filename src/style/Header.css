@@ -1,31 +1,29 @@
 .TitleHeader {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
     margin-left: 80px;
     margin-right: 80px;
 }
 
 .TitleHeader > div {
-    flex-basis: 50%;
-}
-
-.ImageDiv {
-    height: auto;
-    background-image: url(../img/IMG_1702.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    flex-grow: 1;
 }
 
 .ImageColumn {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 40px 0;
+}
+
+.ImageColumn img {
+    width: 100%;
 }
 
 .TextColumn {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }

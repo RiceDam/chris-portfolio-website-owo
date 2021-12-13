@@ -1,26 +1,51 @@
 .progress-div {
     display: flex;
-    justify-content: space-evenly;
+    align-content: center;
+    justify-content: center;
     padding: 15px;
+    margin: 0 20% 0 20%;
+    border-color: var(--primary);
 }
 
-.progress-bars, .progress-point {
+.progress-div legend {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--primary);
+    margin-left: 5%;
+    padding: 0 20px 0 20px;
+}
+
+.progress-div legend span {
+    color: var(--primary-highlight);
+}
+
+.progress-bars,
+.progress-point {
     list-style: none;
     padding: 0;
 }
 
 .progress-bars {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 10%;
 }
 
-.progress-point {
-    padding-bottom: 1.5rem;
-    border-left: 4px solid #5FA8D3;
-    position: relative;
-    flex-grow: 1;
+.progress-bars::after {
+    content: '';
+    width: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: var(--primary-highlight);
 }
 
 .progress-point:last-child {
@@ -28,17 +53,24 @@
     padding-bottom: 0;
 }
 
-.progress-point:before {
+.progress-point::after {
     content: '';
-    background: #5FA8D3;
-    border: 8px solid #5FA8D3;
-    position: absolute;
-    left: -9px;
-    top: 0px;
+    width: 10px;
+    height: 10px;
+    background: var(--primary-highlight);
+    border: 2px solid var(--primary-highlight);
     border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 0px;
+    z-index: 2;
+}
+
+.progress-point {
+    position: relative;
 }
 
 .progress-content {
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 5%;
 }

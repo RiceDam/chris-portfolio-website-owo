@@ -31,14 +31,15 @@ function DivWithProgress(props) {
         return bars;
     }
     return (
-        <div className="progress-div">
+        <fieldset className="progress-div">
+            <legend><span>0.2</span> Experience</legend>
             <ul className="progress-bars">
                 {progressBars()}
             </ul>
             <div className="progress-content" onWheel={handleScroll}>
                 {props.projects[index]}
             </div>
-        </div>
+        </fieldset>
     );
 }
 

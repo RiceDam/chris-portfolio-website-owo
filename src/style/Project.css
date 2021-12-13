@@ -1,0 +1,24 @@
+.project-div {
+    color: var(--terniary);
+}
+
+.project-div ul:not(:last-child) {
+    margin: 10px 0 40px 0;
+}
+
+.project-div li {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.project-div h1,h3 {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 0 10px 0;
+}
