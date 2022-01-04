@@ -1,10 +1,37 @@
 .NavigationMenu {
-    position: sticky;
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-    height: 8vh;
-    margin-left: 80px;
-    margin-right: 80px;
-    align-items: center;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  gap: 64px;
+  height: 8vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.NavigationMenu a {
+  font-family: Bohemian Soul;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  color: var(--light-text);
+  text-decoration: none;
+  text-shadow: 0px 4px 8px rgba(44, 38, 75, 0.25);
+}
+
+.PrimaryNavigationLink {
+  display: flex;
+  flex-direction: row;
+}
+
+.PrimaryNavigationLink .NavigationLink {
+  color: var(--secondary);
+}
+
+.PrimaryNavigationLink img {
+  margin-left: 10px;
 }
