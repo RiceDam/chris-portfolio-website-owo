@@ -1,9 +1,10 @@
 .TitleHeader {
   display: flex;
   flex-direction: row;
-  margin-left: 120px;
-  margin-right: 120px;
-  padding-top: 16vh;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  padding-top: 20vh;
+  margin-bottom: 120px;
 }
 
 .TitleHeader > div {
@@ -15,7 +16,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 0;
+  padding-top: 4vw;
+  padding-bottom: 20px;
+  background-color: var(--primary);
+  border-radius: 20px 20px 4px 4px;
+}
+
+.ImageText {
+  padding: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.2em;
+  color: var(--dark-text);
 }
 
 .ImageColumn img {
@@ -27,5 +44,5 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-right: 80px;
+  margin-right: 12vw;
 }

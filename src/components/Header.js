@@ -14,6 +14,7 @@ function TitleHeader() {
       </div>
       <div className="ImageColumn">
         <img src={HeaderImage} />
+        <span className="ImageText">THE STARRY-EYED STORYTELLER</span>
       </div>
     </div>
   );
