@@ -6,10 +6,13 @@
   gap: 4vw;
   height: 8vh;
   padding-top: 4vh;
-  padding-bottom: 4vh;
+  padding-bottom: 5vh;
   align-items: center;
   justify-content: center;
   align-content: center;
+  background: transparent;
+  z-index: 1;
+  background: linear-gradient(180deg, #241f40 0%, rgba(36, 31, 64, 0) 100%);
 }
 
 .NavigationMenu a {
@@ -34,4 +37,25 @@
 
 .PrimaryNavigationLink img {
   margin-left: 10px;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light-text);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
 }

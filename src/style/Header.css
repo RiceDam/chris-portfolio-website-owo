@@ -1,8 +1,8 @@
 .TitleHeader {
   display: flex;
   flex-direction: row;
-  margin-left: 12vw;
-  margin-right: 12vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding-top: 20vh;
   margin-bottom: 120px;
 }

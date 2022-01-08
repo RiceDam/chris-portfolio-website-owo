@@ -3,6 +3,8 @@ import DivWithProgress from "./components/DivWithProgress";
 import Project from "./components/Projects";
 import Navigation from "./components/Navigation";
 import TitleHeader from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
 
 const proj1_details = ["works", "test"];
 const proj1_stack = ["blah", "blah"];
@@ -13,6 +15,10 @@ function App() {
       <Navigation></Navigation>
 
       <TitleHeader></TitleHeader>
+
+      <AboutMe></AboutMe>
+
+      <Experience></Experience>
 
       <DivWithProgress
         projects={[

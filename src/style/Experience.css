@@ -1,0 +1,48 @@
+.ExperienceDiv {
+  background: rgba(191, 181, 255, 0.8);
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.ExperienceDivLeft {
+  position: left;
+}
+
+.ExperienceDivRight {
+  position: right;
+}
+
+.DivTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.ExperienceTitle {
+  font-family: Bohemian Soul;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 110%;
+  color: var(--dark-text);
+}
+
+.ExperienceLocation {
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 0.2em;
+}
+
+.TimelineDiv {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 80px;
+}
+
+.Timeline {
+  margin-top: 40px;
+}
