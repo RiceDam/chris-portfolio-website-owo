@@ -5,11 +5,10 @@
   --primary: #9e91f2;
   --secondary: #8cbaff;
   --terniary: #bfb5ff;
-  --quartenary: #9e91f2;
   --quinary: #8c81d3;
   --dark-text: #241f40;
   --light-text: #dfdcf4;
-  --white: #fff;
+  --white: #ffffff;
 }
 
 .App {
