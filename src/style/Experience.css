@@ -38,7 +38,6 @@
 }
 
 #Timeline .TimelineItem:after,
-header:before,
 #Timeline .TimelineItem:before {
   content: "";
   display: block;
@@ -57,7 +56,7 @@ header:before,
 .Container {
   max-width: 1100px;
   margin: 30px auto;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 #Timeline {

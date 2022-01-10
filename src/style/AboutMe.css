@@ -5,7 +5,7 @@
   margin-right: 15vw;
   border-radius: 20px;
   padding: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .DivTitle {
@@ -25,5 +25,38 @@
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  gap: 1vw;
+  gap: 2vw;
+}
+
+.AboutMeInformation {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 2vw;
+  align-items: center;
+}
+
+.AboutMeImage {
+  width: 30%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--primary);
+}
+
+.AboutMeQuote {
+  width: 70%;
+}
+
+.AboutMeColumn img {
+  width: 100%;
+  height: auto;
+}
+
+.AboutMeQuote .Body {
+  margin: 0px;
+  padding-bottom: 10px;
 }

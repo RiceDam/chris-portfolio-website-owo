@@ -1,6 +1,7 @@
 import "../style/AboutMe.css";
 import OutlineButton from "../components/OutlineButton.js";
 import StarLinkImg from "../img/star.svg";
+import AboutMeImg from "../img/mraotf.jpg";
 
 function AboutMe() {
   return (
@@ -9,9 +10,35 @@ function AboutMe() {
         <img src={StarLinkImg} />
         About me
       </div>
-      <p className="Quote">
-        “They say I don’t know when to quit. Like that’s a weakness.”
-      </p>
+
+      <div className="AboutMeInformation">
+        <div className="AboutMeColumn AboutMeImage">
+          <img src={AboutMeImg}></img>
+        </div>
+
+        <div className="AboutMeColumn AboutMeQuote">
+          <p className="Quote">
+            “They say I don’t know when to quit. Like that’s a weakness.”
+          </p>
+
+          <p className="Body">
+            <b>Name:</b> Christina Andrea Raganit
+          </p>
+          <p className="Body">
+            <b>Pronouns:</b> she/her
+          </p>
+          <p className="Body">
+            <b>Location:</b> Surrey, British Columbia
+          </p>
+          <p className="Body">
+            <b>Birthdate:</b> March 1, 2001
+          </p>
+          <p className="Body">
+            <b>Favorite food:</b> Lasagna
+          </p>
+        </div>
+      </div>
+
       <p className="Body">
         Hi, Christina here! I’m a graduate from British Columbia Institute of
         Technology’s Computer Systems Technology diploma program and I’m
