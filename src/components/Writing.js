@@ -1,5 +1,5 @@
 import StarLinkImg from "../img/star.svg";
-import OutlineButton from "./OutlineButton";
+import SmallOutlineButton from "./SmallOutlineButton";
 import "../style/Writing.css";
 
 function WritingItem(props) {
@@ -9,7 +9,7 @@ function WritingItem(props) {
       <p className="WritingGenres">
         Genres:&nbsp;
         {props.WritingGenres.map((element) => {
-          if (element == props.WritingGenres.slice(-1)[0]) {
+          if (element === props.WritingGenres.slice(-1)[0]) {
             return <span>{element}</span>;
           } else {
             return <span>{element + ", "}</span>;
@@ -18,10 +18,10 @@ function WritingItem(props) {
       </p>
       <p className="WritingDescription">{props.WritingDescription}</p>
       {props.WritingButtonText && (
-        <OutlineButton
+        <SmallOutlineButton
           text={props.WritingButtonText}
           link={props.WritingButtonLink}
-        ></OutlineButton>
+        ></SmallOutlineButton>
       )}
     </div>
   );

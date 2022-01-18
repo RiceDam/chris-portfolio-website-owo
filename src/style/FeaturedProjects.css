@@ -4,10 +4,32 @@
   margin-bottom: 40px;
 }
 
+.ProjectTitle {
+  font-family: Bohemian Soul;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 110%;
+  color: var(--dark-text);
+}
+
+.ProjectRole {
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 0.2em;
+}
+
 .FeaturedProjectsDiv {
   margin-left: calc(10vw + 20px);
   margin-right: 10vw;
   margin-bottom: 100px;
+}
+
+.SmallOutlineButton {
+  margin-bottom: 10px;
 }
 
 .FeaturedProjectImage img {
@@ -21,10 +43,12 @@
 }
 
 .FeaturedProjectItem {
-  background-color: var(--quinary);
+  background-color: var(--terniary);
   display: flex;
   border-radius: 10px;
   flex-direction: row;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .FeaturedProjectImage {

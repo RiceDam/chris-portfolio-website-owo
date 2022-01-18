@@ -42,13 +42,11 @@ function Timeline() {
             ExperienceTitle="Social Media Content Coordinator"
             ExperienceLocation="Simon Fraser University Science Fiction and Fantasy Book Club | Burnaby, British Columbia"
             ExperienceDescription={[
-              "Lorem",
-              "ipsum",
-              "dolor",
-              "sit",
-              "amet :3",
+              "Create content for promotional material such as Instagram posts and stories",
+              "Use social media to promote initiatives and events within the club",
+              "Manage content and social media calendars to ensure regular delivery and updates",
             ]}
-            ExperienceButton="View code on GitHub"
+            ExperienceButton="View work"
           ></TimelineItem>
 
           <TimelineItem
@@ -57,7 +55,9 @@ function Timeline() {
             ExperienceTitle="UI/UX Developer"
             ExperienceLocation="Karma Well Health Technologies | Greater Vancouver, British Columbia"
             ExperienceDescription={[
-              "Create wireframes, prototypes, user flows, and design guidelines on Figma",
+              "Lead initiatives to develop design and typography guidelines and create documentation for the development team",
+              "Create high-fidelity wireframes  of the product on Figma that are responsive for mobile, tablet, and desktop breakpoints",
+              "Communicate with the development team and provide feedback to maintain consistency throughout the designs",
               "Design graphic user interface elements, such as overlays, menus, tabs and widgets",
               "Identify and communicate best practices for user experience design",
               "Perform user experience research by conducting user interviews to collect findings and data",
