@@ -1,4 +1,5 @@
 import StarLinkImg from "../img/star.svg";
+import OutlineButton from "./OutlineButton";
 import "../style/Writing.css";
 
 function WritingItem(props) {
@@ -16,6 +17,12 @@ function WritingItem(props) {
         })}
       </p>
       <p className="WritingDescription">{props.WritingDescription}</p>
+      {props.WritingButtonText && (
+        <OutlineButton
+          text={props.WritingButtonText}
+          link={props.WritingButtonLink}
+        ></OutlineButton>
+      )}
     </div>
   );
 }
@@ -31,6 +38,8 @@ function Writing() {
         WritingTitle="A Waltz of Swords and Daggers"
         WritingGenres={["Romance", "Fanfiction"]}
         WritingDescription="Sent by the Trifarix to infiltrate the great city of Demacia during the coronation of the crown prince, Noxian assassin Katarina du Couteau disguises herself as a Demacian noblewoman to orchestrate the murders of several high-ranking military officers, only to find herself falling in love with her sworn enemy — Garen Crownguard, Sword-Captain of the Dauntless Vanguard."
+        WritingButtonText="Read on Archive of Our Own"
+        WritingButtonLink="https://archiveofourown.org/works/30914375/chapters/76339709"
       ></WritingItem>
       <WritingItem
         WritingTitle="Mayhem Online"
