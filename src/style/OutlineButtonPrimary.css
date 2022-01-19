@@ -1,13 +1,13 @@
-.OutlineButton {
+.OutlineButtonPrimary {
   padding: 10px 20px;
   text-decoration: none;
   background: transparent;
-  border: 2px solid var(--light-text);
-  color: var(--light-text);
-  -webkit-box-shadow: 4px 4px 0 var(--light-text);
-  -moz-box-shadow: 4px 4px 0 var(--light-text);
-  -ms-box-shadow: 4px 4px 0 var(--light-text);
-  box-shadow: 4px 4px 0 var(--light-text);
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  -webkit-box-shadow: 4px 4px 0 var(--primary);
+  -moz-box-shadow: 4px 4px 0 var(--primary);
+  -ms-box-shadow: 4px 4px 0 var(--primary);
+  box-shadow: 4px 4px 0 var(--primary);
   display: inline-block;
   position: relative;
   text-transform: uppercase;
@@ -28,7 +28,7 @@
   transition: background 0.3s ease;
 }
 
-.OutlineButton:hover {
+.OutlineButtonPrimary:hover {
   box-shadow: none;
   top: 2px;
   left: 2px;

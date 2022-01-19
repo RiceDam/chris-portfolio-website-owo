@@ -4,10 +4,14 @@
   margin-bottom: 40px;
 }
 
+.SmallOutlineButton {
+  margin-bottom: 20px;
+}
+
 .Writing {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .WritingItem {
@@ -15,7 +19,16 @@
   border-radius: 10px;
   flex-direction: column;
   margin-bottom: 20px;
-  padding: 10px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.AlignRight {
+  text-align: right;
+  padding-top: 10px;
+  margin-bottom: 40px;
 }
 
 .WritingTitle {

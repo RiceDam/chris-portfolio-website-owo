@@ -1,0 +1,62 @@
+.ProjectsContainer {
+  background: #241f40;
+  min-height: 100vh;
+  background-image: url(../img/stars.png);
+  background: url(../img/stars.png),
+    linear-gradient(
+      to bottom,
+      #241f40 0%,
+      rgba(140, 186, 255, 0.5) 53.65%,
+      rgba(225, 154, 222, 0.5) 100%
+    ),
+    #241f40;
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  font-family: Raleway;
+}
+
+.DivTitleDiv {
+  margin-top: 100px;
+}
+
+.ProjectsList {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.ProjectRow {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+
+.ProjectContainer {
+  width: calc((100% / 3));
+  background-color: var(--light-text);
+  border-radius: 10px;
+}
+
+.ProjectContainerText {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.ProjectContainer img {
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.ExperienceDescription,
+.ExperienceContainerText > .ExperienceDate {
+  color: var(--dark-text);
+}
+
+.ExperienceContainerText p {
+  padding-bottom: 10px;
+  margin: 0px;
+}

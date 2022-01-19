@@ -1,0 +1,22 @@
+.ExperienceList {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.ExperienceRow {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+
+.ExperienceContainer {
+  width: calc((100% / 3));
+  background-color: var(--light-text);
+  border-radius: 10px;
+}
+
+.ExperienceContainerText {
+  padding-left: 20px;
+  padding-right: 20px;
+}

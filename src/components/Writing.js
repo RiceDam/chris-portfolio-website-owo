@@ -7,7 +7,7 @@ function WritingItem(props) {
     <div className="WritingItem">
       <h2 className="WritingTitle">{props.WritingTitle}</h2>
       <p className="WritingGenres">
-        Genres:&nbsp;
+        <b>Genres:</b>&nbsp;
         {props.WritingGenres.map((element) => {
           if (element === props.WritingGenres.slice(-1)[0]) {
             return <span>{element}</span>;
@@ -18,10 +18,13 @@ function WritingItem(props) {
       </p>
       <p className="WritingDescription">{props.WritingDescription}</p>
       {props.WritingButtonText && (
-        <SmallOutlineButton
-          text={props.WritingButtonText}
-          link={props.WritingButtonLink}
-        ></SmallOutlineButton>
+        <div className="AlignRight">
+          <SmallOutlineButton
+            className="SmallOutlineButton"
+            text={props.WritingButtonText}
+            link={props.WritingButtonLink}
+          ></SmallOutlineButton>
+        </div>
       )}
     </div>
   );

@@ -1,5 +1,6 @@
 import StarLinkImg from "../img/star.svg";
 import CatPlaceholder from "../img/mraotf.jpg";
+import PointedStarLinkImg from "../img/pointer-star.svg";
 import SmallOutlineButton from "./SmallOutlineButton";
 import "../style/FeaturedProjects.css";
 
@@ -8,9 +9,9 @@ function FeaturedProjectItem(props) {
     <div className="FeaturedProjectItem">
       <div className="FeaturedProjectImage FeaturedProjectItemColumn">
         <img src={props.Image} />
-        <a href="#" className="FeaturedProjectButton">
-          {props.ProjectButton}
-        </a>
+        <div className="FeaturedProjectButton">
+          <img src={PointedStarLinkImg}></img>
+        </div>
       </div>
       <div className="FeaturedProjectItemColumn FeaturedProjectDescription">
         <h2 className="ProjectTitle">{props.ProjectTitle}</h2>
@@ -32,11 +33,13 @@ function FeaturedProjectItem(props) {
           })}
         </p>
         {props.ProjectButtonText && (
-          <SmallOutlineButton
-            class="SmallOutlineButton"
-            text={props.ProjectButtonText}
-            link={props.ProjectButtonLink}
-          ></SmallOutlineButton>
+          <div className="SmallOutlineButtonDiv">
+            <SmallOutlineButton
+              class="SmallOutlineButton"
+              text={props.ProjectButtonText}
+              link={props.ProjectButtonLink}
+            ></SmallOutlineButton>
+          </div>
         )}
       </div>
     </div>
@@ -54,8 +57,8 @@ function FeaturedProjects() {
       <FeaturedProjectItem
         Image={CatPlaceholder}
         ProjectButton="a"
-        ProjectTitle="Karma"
-        ProjectRole="UI/UX Designer and Frontend Developer"
+        ProjectTitle="Karma - Web app for volunteers"
+        ProjectRole="UI/UX Designer and Full-Stack Developer"
         ProjectTechnologies={[
           "Figma",
           "JavaScript",
@@ -79,7 +82,7 @@ function FeaturedProjects() {
       <FeaturedProjectItem
         Image={CatPlaceholder}
         ProjectButton="a"
-        ProjectTitle="Battle Buddy"
+        ProjectTitle="Battle Buddy - Teamfight Tactics Electron.js app"
         ProjectRole="UI/UX Designer and Frontend Developer"
         ProjectTechnologies={[
           "Figma",
@@ -89,6 +92,25 @@ function FeaturedProjects() {
           "Electron.js",
         ]}
         ProjectDescription={["Lorem", "ipsum", "dolor", "sit", "amet"]}
+        ProjectButtonText="View code on GitHub"
+        ProjectButtonLink="#"
+      ></FeaturedProjectItem>
+
+      <FeaturedProjectItem
+        Image={CatPlaceholder}
+        ProjectButton="a"
+        ProjectTitle="Tours by Locals - Branding and graphic design"
+        ProjectRole="Graphic Designer and UI Designer"
+        ProjectTechnologies={[
+          "Adobe Illustrator",
+          "Adobe Photoshop",
+          "Figma",
+          "Adobe InDesign",
+          "Adobe Premiere Pro",
+        ]}
+        ProjectDescription={["Lorem", "ipsum", "dolor", "sit", "amet"]}
+        ProjectButtonText="View work"
+        ProjectButtonLink="#"
       ></FeaturedProjectItem>
 
       <FeaturedProjectItem

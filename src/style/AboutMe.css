@@ -1,8 +1,8 @@
 .AboutMeDiv {
   border-radius: 20px;
   background: rgba(108, 99, 166, 0.8);
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   border-radius: 20px;
   padding: 40px;
   margin-bottom: 100px;
@@ -42,7 +42,6 @@
   width: 30%;
   height: auto;
   padding-top: 40px;
-  padding-bottom: 20px;
   border-radius: 10px;
   background-color: var(--primary);
 }
@@ -59,4 +58,19 @@
 .AboutMeQuote .Body {
   margin: 0px;
   padding-bottom: 10px;
+}
+
+.AboutMeImage {
+  text-align: center;
+}
+
+.AboutMeImageText {
+  padding: 10px;
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.2em;
+  color: var(--dark-text);
 }

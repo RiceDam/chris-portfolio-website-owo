@@ -1,18 +1,13 @@
 .NavigationMenu {
+  z-index: 1;
   display: flex;
-  position: fixed;
-  left: 0;
-  right: 0;
   gap: 4vw;
   height: 8vh;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
+  padding-top: 4vh;
   align-items: center;
   justify-content: center;
   align-content: center;
   background: transparent;
-  z-index: 1;
-  background: linear-gradient(180deg, #241f40 0%, rgba(36, 31, 64, 0) 100%);
 }
 
 .NavigationMenu a {

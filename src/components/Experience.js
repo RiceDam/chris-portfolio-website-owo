@@ -17,9 +17,11 @@ function TimelineItem(props) {
           })}
         </ul>
         {props.ExperienceButton && (
-          <a href="#" class="ExperienceButton">
-            {props.ExperienceButton}
-          </a>
+          <div className="ExperienceButtonDiv">
+            <a href="#" class="ExperienceButton">
+              {props.ExperienceButton}
+            </a>
+          </div>
         )}
       </div>
     </div>
@@ -28,7 +30,7 @@ function TimelineItem(props) {
 
 function Timeline() {
   return (
-    <div className="TimelineDiv">
+    <div id="experience" className="TimelineDiv">
       <div className="DivTitle">
         <img src={StarLinkImg} />
         Experience
@@ -46,7 +48,6 @@ function Timeline() {
               "Use social media to promote initiatives and events within the club",
               "Manage content and social media calendars to ensure regular delivery and updates",
             ]}
-            ExperienceButton="View work"
           ></TimelineItem>
 
           <TimelineItem
@@ -62,7 +63,6 @@ function Timeline() {
               "Identify and communicate best practices for user experience design",
               "Perform user experience research by conducting user interviews to collect findings and data",
             ]}
-            ExperienceButton="View code on GitHub"
           ></TimelineItem>
 
           <TimelineItem
@@ -102,7 +102,6 @@ function Timeline() {
               "Provided a fun learning environment for students of different skill levels",
               "Ensured safety of the students during activities in the workshop",
             ]}
-            ExperienceButton="View code on GitHub"
           ></TimelineItem>
 
           <TimelineItem
@@ -115,7 +114,6 @@ function Timeline() {
               "Provided multimedia coverage to highlight environmental initiatives accomplished within program",
               "Conceptualized material for educational activities for use in community outreach events",
             ]}
-            ExperienceButton="View code on GitHub"
           ></TimelineItem>
 
           <TimelineItem
@@ -128,7 +126,6 @@ function Timeline() {
               "Applied critical thinking to creatively solve problems and complications throughout the design process",
               "Collaborated with mentors and clients to apply feedback and improvements to ensure client satisfaction",
             ]}
-            ExperienceButton="View code on GitHub"
           ></TimelineItem>
         </div>
       </div>

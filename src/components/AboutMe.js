@@ -14,6 +14,7 @@ function AboutMe() {
       <div className="AboutMeInformation">
         <div className="AboutMeColumn AboutMeImage">
           <img src={AboutMeImg}></img>
+          <div className="AboutMeImageText">THE STARRY-EYED STORYTELLER</div>
         </div>
 
         <div className="AboutMeColumn AboutMeQuote">
@@ -21,33 +22,38 @@ function AboutMe() {
             “They say I don’t know when to quit. Like that’s a weakness.”
           </p>
 
-          <p className="Body">
+          <span className="Body">
             <b>Name:</b> Christina Andrea Raganit
-          </p>
-          <p className="Body">
+          </span>
+          <br></br>
+          <span className="Body">
             <b>Pronouns:</b> she/her
-          </p>
-          <p className="Body">
+          </span>
+          <br></br>
+          <span className="Body">
             <b>Location:</b> Surrey, British Columbia
-          </p>
-          <p className="Body">
+          </span>
+          <br></br>
+          <span className="Body">
             <b>Birthdate:</b> March 1, 2001
-          </p>
-          <p className="Body">
+          </span>
+          <br></br>
+          <span className="Body">
             <b>Favorite food:</b> Lasagna
+          </span>
+          <br></br>
+          <br></br>
+          <p className="Body">
+            Hi, Christina here! I’m a graduate from British Columbia Institute
+            of Technology’s Computer Systems Technology diploma program and I’m
+            currently an undergraduate student in Simon Fraser University’s
+            Interactive Arts and Technology program. I’m passionate about UI/UX
+            design, graphic design, frontend development, and writing! The rare
+            times I’m not doing schoolwork, I’m either jamming on my ukulele,
+            listening to rock music, or playing League of Legends.
           </p>
         </div>
       </div>
-
-      <p className="Body">
-        Hi, Christina here! I’m a graduate from British Columbia Institute of
-        Technology’s Computer Systems Technology diploma program and I’m
-        currently an undergraduate student in Simon Fraser University’s
-        Interactive Arts and Technology program. I’m passionate about UI/UX
-        design, graphic design, frontend development, and writing! The rare
-        times I’m not doing schoolwork, I’m either jamming on my ukulele,
-        listening to rock music, or playing League of Legends.
-      </p>
 
       <div className="ButtonsDiv">
         <OutlineButton

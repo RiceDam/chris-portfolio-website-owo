@@ -1,4 +1,5 @@
 import "../style/Header.css";
+import OutlineButtonPrimary from "./OutlineButtonPrimary";
 import HeaderImage from "../img/IMG_1702.png";
 
 function TitleHeader() {
@@ -11,10 +12,7 @@ function TitleHeader() {
           I am a UI/UX designer with a diploma in Computer Systems and a current
           SFU student studying Interactive Arts and Technology.
         </span>
-      </div>
-      <div className="ImageColumn">
-        <img src={HeaderImage} />
-        <span className="ImageText">THE STARRY-EYED STORYTELLER</span>
+        <OutlineButtonPrimary text="Contact me" link="#"></OutlineButtonPrimary>
       </div>
     </div>
   );

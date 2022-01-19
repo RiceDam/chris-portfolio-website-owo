@@ -3,8 +3,8 @@
   flex-direction: row;
   margin-left: 10vw;
   margin-right: 10vw;
-  padding-top: 20vh;
   margin-bottom: 100px;
+  height: calc(100vh - 8vh);
 }
 
 .TitleHeader > div {
@@ -45,4 +45,9 @@
   align-items: flex-start;
   justify-content: center;
   margin-right: 12vw;
+}
+
+.Subtitle {
+  margin-bottom: 40px;
+  width: 50%;
 }
