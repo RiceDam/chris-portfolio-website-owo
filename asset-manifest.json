@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86f492c4.chunk.css",
+    "main.js": "/static/js/main.4ff63ed6.chunk.js",
+    "main.js.map": "/static/js/main.4ff63ed6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cde025eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cde025eb.js.map",
+    "static/js/2.d034c2a1.chunk.js": "/static/js/2.d034c2a1.chunk.js",
+    "static/js/2.d034c2a1.chunk.js.map": "/static/js/2.d034c2a1.chunk.js.map",
+    "static/js/3.1f8cd463.chunk.js": "/static/js/3.1f8cd463.chunk.js",
+    "static/js/3.1f8cd463.chunk.js.map": "/static/js/3.1f8cd463.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.86f492c4.chunk.css.map": "/static/css/main.86f492c4.chunk.css.map",
+    "static/js/2.d034c2a1.chunk.js.LICENSE.txt": "/static/js/2.d034c2a1.chunk.js.LICENSE.txt",
+    "static/media/IMG_1702.78f6cd33.png": "/static/media/IMG_1702.78f6cd33.png",
+    "static/media/battle-buddy-square.8b8b16f4.png": "/static/media/battle-buddy-square.8b8b16f4.png",
+    "static/media/battlebuddy.f6133617.png": "/static/media/battlebuddy.f6133617.png",
+    "static/media/karma-square.ff42ec0d.png": "/static/media/karma-square.ff42ec0d.png",
+    "static/media/karma.adb00a5f.png": "/static/media/karma.adb00a5f.png",
+    "static/media/kidlaroi.2bd899ac.png": "/static/media/kidlaroi.2bd899ac.png",
+    "static/media/me.bce3843f.png": "/static/media/me.bce3843f.png",
+    "static/media/modernportfolio.46c2d0e2.png": "/static/media/modernportfolio.46c2d0e2.png",
+    "static/media/mraotf.2b2b625c.jpg": "/static/media/mraotf.2b2b625c.jpg",
+    "static/media/no-square-found.803a1c4a.png": "/static/media/no-square-found.803a1c4a.png",
+    "static/media/pointer-star.d505bf3e.svg": "/static/media/pointer-star.d505bf3e.svg",
+    "static/media/portfolio.08340781.png": "/static/media/portfolio.08340781.png",
+    "static/media/star.85a885cb.svg": "/static/media/star.85a885cb.svg",
+    "static/media/Projects.css": "/static/media/stars.cd0afdf9.png",
+    "static/media/tours-by-locals-square.3cbbc894.png": "/static/media/tours-by-locals-square.3cbbc894.png",
+    "static/media/toursbylocals.cbddb4dc.png": "/static/media/toursbylocals.cbddb4dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cde025eb.js",
+    "static/js/2.d034c2a1.chunk.js",
+    "static/css/main.86f492c4.chunk.css",
+    "static/js/main.4ff63ed6.chunk.js"
+  ]
+}
