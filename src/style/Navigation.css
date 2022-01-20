@@ -11,7 +11,7 @@
 }
 
 .NavigationMenu a {
-  font-family: Bohemian Soul;
+  font-family: "Bohemian Soul";
   font-style: normal;
   font-weight: normal;
   font-size: max(1vw, 24px);
@@ -75,7 +75,7 @@
 }
 
 .Links > a {
-  font-family: Bohemian Soul;
+  font-family: "Bohemian Soul";
   font-style: normal;
   font-weight: normal;
   font-size: max(1vw, 32px);

@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+@font-face {
+  font-family: "Bohemian Soul";
+  src: url("style/Bohemian\ Soul.otf");
+}
+
 :root {
   --background: #5c548c;
   --primary: #9e91f2;
@@ -29,7 +34,7 @@
 }
 
 .IntroTitle {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: italic;
   font-weight: 600;
   font-size: 16px;
@@ -60,7 +65,7 @@
 }
 
 .Quote {
-  font-family: Bohemian Soul;
+  font-family: "Bohemian Soul";
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -69,7 +74,7 @@
 }
 
 .Body {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -79,7 +84,7 @@
 .DivTitle {
   display: flex;
   flex-direction: row;
-  font-family: Bohemian Soul;
+  font-family: "Bohemian Soul";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -95,5 +100,5 @@
   padding-bottom: 20px;
   color: var(--light-text);
   font-size: 20px;
-  font-family: Bohemian Soul;
+  font-family: "Bohemian Soul";
 }
