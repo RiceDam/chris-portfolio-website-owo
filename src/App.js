@@ -15,12 +15,18 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/portfolio" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/projects/karma" element={<Karma />} />
-        <Route path="/projects/battle-buddy" element={<BattleBuddy />} />
-        <Route path="/projects/tours-by-locals" element={<ToursByLocals />} />
+        <Route path="/portfolio/projects" element={<Projects />} />
+        <Route path="/portfolio/about" element={<About />} />
+        <Route path="/portfolio/experience" element={<Experience />} />
+        <Route path="/portfolio/projects/karma" element={<Karma />} />
+        <Route
+          path="/portfolio/projects/battle-buddy"
+          element={<BattleBuddy />}
+        />
+        <Route
+          path="/portfolio/projects/tours-by-locals"
+          element={<ToursByLocals />}
+        />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
