@@ -35,9 +35,9 @@ function Navigation() {
           </svg>
           <div className="Links">
             <a href="portfolio">Home</a>
-            <a href="portfolio/about">About</a>
-            <a href="portfolio/experience">Experience</a>
-            <a href="portfolio/projects">Projects</a>
+            <a href="about">About</a>
+            <a href="experience">Experience</a>
+            <a href="projects">Projects</a>
           </div>
         </div>
       )}
@@ -81,13 +81,13 @@ function Navigation() {
             <a className="NavigationLink" href="portfolio/">
               Home
             </a>
-            <a className="NavigationLink" href="portfolio/about">
+            <a className="NavigationLink" href="about">
               About
             </a>
-            <a className="NavigationLink" href="portfolio/experience">
+            <a className="NavigationLink" href="experience">
               Experience
             </a>
-            <a className="NavigationLink" href="portfolio/projects">
+            <a className="NavigationLink" href="projects">
               Projects
             </a>
             <div className="PrimaryNavigationLink">
