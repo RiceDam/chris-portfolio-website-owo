@@ -9,25 +9,19 @@ import NoPage from "./pages/NoPage";
 import ToursByLocals from "./pages/ToursByLocals";
 
 import ReactDOM from "react-dom";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 
 export default function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/portfolio">
       <Routes>
-        <Route path="/portfolio" element={<Home />} />
-        <Route path="/portfolio/projects" element={<Projects />} />
-        <Route path="/portfolio/about" element={<About />} />
-        <Route path="/portfolio/experience" element={<Experience />} />
-        <Route path="/portfolio/projects/karma" element={<Karma />} />
-        <Route
-          path="/portfolio/projects/battle-buddy"
-          element={<BattleBuddy />}
-        />
-        <Route
-          path="/portfolio/projects/tours-by-locals"
-          element={<ToursByLocals />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/projects/karma" element={<Karma />} />
+        <Route path="/projects/battle-buddy" element={<BattleBuddy />} />
+        <Route path="/projects/tours-by-locals" element={<ToursByLocals />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </HashRouter>
