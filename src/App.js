@@ -7,12 +7,13 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import NoPage from "./pages/NoPage";
 import ToursByLocals from "./pages/ToursByLocals";
+
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/portfolio" element={<Home />} />
         <Route path="/portfolio/projects" element={<Projects />} />
@@ -29,7 +30,7 @@ export default function App() {
         />
         <Route path="*" element={<NoPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

@@ -78,7 +78,7 @@ function Navigation() {
             </g>
           </svg>
           <div id="NavigationMenu" className="NavigationMenu">
-            <a className="NavigationLink" href="portfolio/">
+            <a className="NavigationLink" href="/">
               Home
             </a>
             <a className="NavigationLink" href="about">
