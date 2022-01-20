@@ -34,10 +34,10 @@ function Navigation() {
             />
           </svg>
           <div className="Links">
-            <a href="/">Home</a>
-            <a href="about">About</a>
-            <a href="experience">Experience</a>
-            <a href="projects">Projects</a>
+            <a href="portfolio">Home</a>
+            <a href="portfolio/about">About</a>
+            <a href="portfolio/experience">Experience</a>
+            <a href="portfolio/projects">Projects</a>
           </div>
         </div>
       )}
@@ -78,16 +78,16 @@ function Navigation() {
             </g>
           </svg>
           <div id="NavigationMenu" className="NavigationMenu">
-            <a className="NavigationLink" href="/">
+            <a className="NavigationLink" href="portfolio/">
               Home
             </a>
-            <a className="NavigationLink" href="about">
+            <a className="NavigationLink" href="portfolio/about">
               About
             </a>
-            <a className="NavigationLink" href="experience">
+            <a className="NavigationLink" href="portfolio/experience">
               Experience
             </a>
-            <a className="NavigationLink" href="projects">
+            <a className="NavigationLink" href="portfolio/projects">
               Projects
             </a>
             <div className="PrimaryNavigationLink">
