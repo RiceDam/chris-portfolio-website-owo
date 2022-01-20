@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.45c5f176.chunk.css",
+    "main.css": "/portfolio/static/css/main.a1664486.chunk.css",
     "main.js": "/portfolio/static/js/main.1f112db7.chunk.js",
     "main.js.map": "/portfolio/static/js/main.1f112db7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3a088304.js",
@@ -10,8 +10,9 @@
     "static/js/3.773fe15a.chunk.js": "/portfolio/static/js/3.773fe15a.chunk.js",
     "static/js/3.773fe15a.chunk.js.map": "/portfolio/static/js/3.773fe15a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.45c5f176.chunk.css.map": "/portfolio/static/css/main.45c5f176.chunk.css.map",
+    "static/css/main.a1664486.chunk.css.map": "/portfolio/static/css/main.a1664486.chunk.css.map",
     "static/js/2.a14daba0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a14daba0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/Bohemian Soul.45127c35.otf",
     "static/media/IMG_1702.78f6cd33.png": "/portfolio/static/media/IMG_1702.78f6cd33.png",
     "static/media/battle-buddy-square.8b8b16f4.png": "/portfolio/static/media/battle-buddy-square.8b8b16f4.png",
     "static/media/battlebuddy.f6133617.png": "/portfolio/static/media/battlebuddy.f6133617.png",
@@ -32,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.3a088304.js",
     "static/js/2.a14daba0.chunk.js",
-    "static/css/main.45c5f176.chunk.css",
+    "static/css/main.a1664486.chunk.css",
     "static/js/main.1f112db7.chunk.js"
   ]
 }
