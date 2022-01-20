@@ -4,10 +4,6 @@
   margin-bottom: 40px;
 }
 
-.SmallOutlineButton {
-  margin-bottom: 20px;
-}
-
 .Writing {
   margin-left: 10vw;
   margin-right: 10vw;
@@ -25,12 +21,6 @@
   padding-top: 10px;
 }
 
-.AlignRight {
-  text-align: right;
-  padding-top: 10px;
-  margin-bottom: 40px;
-}
-
 .WritingTitle {
   font-family: Bohemian Soul;
   font-style: normal;
@@ -38,4 +28,14 @@
   font-size: 24px;
   line-height: 110%;
   color: var(--dark-text);
+}
+
+.WritingButton {
+  text-align: right;
+}
+
+@media screen and (max-width: 750px) {
+  .DivTitle {
+    margin-bottom: 20px;
+  }
 }

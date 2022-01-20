@@ -22,7 +22,7 @@
 
 .ButtonsDiv {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 2vw;
@@ -73,4 +73,53 @@
   line-height: 110%;
   letter-spacing: 0.2em;
   color: var(--dark-text);
+}
+
+@media screen and (max-width: 1000px) {
+  .AboutMeInformation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutMeColumn {
+    width: 100%;
+  }
+
+  .AboutMeImage {
+    min-width: 200px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .AboutMeDiv,
+  .Skills {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  .AboutMeDiv {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .SkillsColumn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .AboutMeColumn > .Quote {
+    margin-top: 20px;
+  }
+
+  .ButtonsDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .DivTitle {
+    font-size: 32px;
+  }
 }

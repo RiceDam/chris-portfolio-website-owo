@@ -51,3 +51,19 @@
   margin-bottom: 40px;
   width: 50%;
 }
+
+@media screen and (max-width: 800px) {
+  .Subtitle {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Title {
+    font-size: 12vw;
+  }
+
+  .Subtitle {
+    width: 100%;
+  }
+}

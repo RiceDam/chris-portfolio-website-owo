@@ -1,5 +1,5 @@
 import "../style/Header.css";
-import OutlineButtonPrimary from "./OutlineButtonPrimary";
+import OutlineButton from "./OutlineButton";
 import HeaderImage from "../img/IMG_1702.png";
 
 function TitleHeader() {
@@ -12,7 +12,7 @@ function TitleHeader() {
           I am a UI/UX designer with a diploma in Computer Systems and a current
           SFU student studying Interactive Arts and Technology.
         </span>
-        <OutlineButtonPrimary text="Contact me" link="#"></OutlineButtonPrimary>
+        <OutlineButton text="Contact me" link="#"></OutlineButton>
       </div>
     </div>
   );

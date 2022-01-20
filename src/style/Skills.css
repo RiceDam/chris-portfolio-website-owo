@@ -35,3 +35,13 @@
 .SkillsColumn li {
   color: var(--white);
 }
+
+@media screen and (max-width: 850px) {
+  .SkillsDiv {
+    flex-direction: column;
+  }
+
+  .SkillsColumn {
+    width: 100%;
+  }
+}

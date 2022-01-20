@@ -1,0 +1,39 @@
+.AboutPageDiv {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.AboutMePageInformation {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Body {
+  font-style: normal;
+}
+
+.AboutMePageInformation > .AboutMeColumn > .Quote {
+  margin-top: 0px;
+}
+
+.Quote {
+  margin-top: 0px;
+}
+
+.AboutPageDiv > .AboutMeDiv {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .AboutMePageInformation > .AboutMeColumn > .Quote {
+    margin-top: 20px;
+  }
+
+  .AboutMeImage {
+    align-self: center;
+  }
+
+  .AboutPageDiv {
+    padding-bottom: 40px;
+  }
+}

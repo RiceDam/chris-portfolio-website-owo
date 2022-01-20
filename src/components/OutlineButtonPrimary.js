@@ -1,11 +1,11 @@
 import "../style/OutlineButtonPrimary.css";
 
-function OutlineButton(props) {
+function OutlineButtonPrimary(props) {
   return (
-    <a class="OutlineButton" href={props.link}>
+    <a class="OutlineButtonPrimary" href={props.link}>
       {props.text}
     </a>
   );
 }
 
-export default OutlineButton;
+export default OutlineButtonPrimary;

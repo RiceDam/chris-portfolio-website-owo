@@ -17,15 +17,17 @@ function WritingItem(props) {
         })}
       </p>
       <p className="WritingDescription">{props.WritingDescription}</p>
-      {props.WritingButtonText && (
-        <div className="AlignRight">
-          <SmallOutlineButton
-            className="SmallOutlineButton"
-            text={props.WritingButtonText}
-            link={props.WritingButtonLink}
-          ></SmallOutlineButton>
-        </div>
-      )}
+      <div className="WritingButton">
+        {props.WritingButtonText && (
+          <div className="AlignRight">
+            <SmallOutlineButton
+              className="SmallOutlineButton"
+              text={props.WritingButtonText}
+              link={props.WritingButtonLink}
+            ></SmallOutlineButton>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

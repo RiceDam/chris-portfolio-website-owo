@@ -1,6 +1,7 @@
 import "../style/AboutMe.css";
 import OutlineButton from "../components/OutlineButton.js";
 import StarLinkImg from "../img/star.svg";
+import PortfolioImg from "../img/me.png";
 import AboutMeImg from "../img/mraotf.jpg";
 
 function AboutMe() {
@@ -13,7 +14,7 @@ function AboutMe() {
 
       <div className="AboutMeInformation">
         <div className="AboutMeColumn AboutMeImage">
-          <img src={AboutMeImg}></img>
+          <img src={PortfolioImg}></img>
           <div className="AboutMeImageText">THE STARRY-EYED STORYTELLER</div>
         </div>
 
@@ -52,26 +53,21 @@ function AboutMe() {
             times I’m not doing schoolwork, I’m either jamming on my ukulele,
             listening to rock music, or playing League of Legends.
           </p>
+          <div className="ButtonsDiv">
+            <OutlineButton
+              link="https://www.linkedin.com/in/christinaraganit/"
+              text="LinkedIn"
+            ></OutlineButton>
+            <OutlineButton
+              link="mailto:christinaraganit@gmail.com"
+              text="Email"
+            ></OutlineButton>
+            <OutlineButton
+              link="https://github.com/christinaraganit"
+              text="GitHub"
+            ></OutlineButton>
+          </div>
         </div>
-      </div>
-
-      <div className="ButtonsDiv">
-        <OutlineButton
-          link="https://www.linkedin.com/in/christinaraganit/"
-          text="LinkedIn"
-        ></OutlineButton>
-        <OutlineButton
-          link="mailto:christinaraganit@gmail.com"
-          text="Email"
-        ></OutlineButton>
-        <OutlineButton
-          link="https://www.instagram.com/lolastris/"
-          text="Instagram"
-        ></OutlineButton>
-        <OutlineButton
-          link="https://github.com/christinaraganit"
-          text="GitHub"
-        ></OutlineButton>
       </div>
     </div>
   );

@@ -2,12 +2,12 @@
   padding: 10px 20px;
   text-decoration: none;
   background: transparent;
-  border: 2px solid var(--primary);
-  color: var(--primary);
-  -webkit-box-shadow: 4px 4px 0 var(--primary);
-  -moz-box-shadow: 4px 4px 0 var(--primary);
-  -ms-box-shadow: 4px 4px 0 var(--primary);
-  box-shadow: 4px 4px 0 var(--primary);
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+  -webkit-box-shadow: 4px 4px 0 var(--secondary);
+  -moz-box-shadow: 4px 4px 0 var(--secondary);
+  -ms-box-shadow: 4px 4px 0 var(--secondary);
+  box-shadow: 4px 4px 0 var(--secondary);
   display: inline-block;
   position: relative;
   text-transform: uppercase;

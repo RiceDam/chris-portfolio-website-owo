@@ -1,7 +1,7 @@
 .NavigationMenu {
   z-index: 1;
   display: flex;
-  gap: 4vw;
+  gap: 2vw;
   height: 8vh;
   padding-top: 4vh;
   align-items: center;
@@ -14,7 +14,7 @@
   font-family: Bohemian Soul;
   font-style: normal;
   font-weight: normal;
-  font-size: max(1vw, 28px);
+  font-size: max(1vw, 24px);
   letter-spacing: 0.05em;
   color: var(--light-text);
   text-decoration: none;
@@ -53,4 +53,59 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
+}
+
+.MenuIcon {
+  display: none;
+}
+
+.MobileSideNav {
+  text-align: right;
+}
+
+.MobileSideNav > svg {
+  margin-bottom: 20px;
+}
+
+.Links {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.Links > a {
+  font-family: Bohemian Soul;
+  font-style: normal;
+  font-weight: normal;
+  font-size: max(1vw, 32px);
+  letter-spacing: 0.05em;
+  color: var(--light-text);
+  text-decoration: none;
+}
+
+.MobileSideNav {
+  height: 100%; /* 100% Full-height */
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: var(--quarternary); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 40px;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+@media screen and (max-width: 800px) {
+  .NavigationMenu {
+    display: none;
+  }
+
+  .MenuIcon {
+    display: inline-block;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }

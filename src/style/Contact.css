@@ -1,0 +1,16 @@
+.ContactDiv {
+  margin-bottom: 100px;
+}
+
+.ContactButtonsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ContactDiv > .Body {
+  text-align: center;
+  font-size: 24px;
+}

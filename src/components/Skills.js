@@ -48,6 +48,11 @@ function Skills() {
             <li>Adobe After Effects</li>
             <li>Adobe Premiere Pro</li>
           </ul>
+
+          <p className="Body">
+            Don't see a particular skill in any of these lists? I'm willing to
+            learn it, anyway!
+          </p>
         </div>
       </div>
     </div>
