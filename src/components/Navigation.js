@@ -36,10 +36,18 @@ function Navigation() {
             />
           </svg>
           <div className="Links">
-            <a href="/#/portfolio">Home</a>
-            <a href="/#/portfolio/about">About</a>
-            <a href="/#/portfolio/experience">Experience</a>
-            <a href="/#/portfolio/projects">Projects</a>
+            <Link to="/">
+              <span>Home</span>
+            </Link>
+            <Link to="/about">
+              <span>About</span>
+            </Link>
+            <Link to="/experience">
+              <span>Experience</span>
+            </Link>
+            <Link to="/projects">
+              <span>Projects</span>
+            </Link>
             <a href="https://drive.google.com/file/d/1sslvr0mTPN6C2zCdPdID72X5CEz3WLkb/view?usp=sharing">
               Resume
             </a>
@@ -83,18 +91,18 @@ function Navigation() {
             </g>
           </svg>
           <div id="NavigationMenu" className="NavigationMenu">
-            <a className="NavigationLink" href="/#/portfolio">
-              Home
-            </a>
-            <a className="NavigationLink" href="/#/portfolio/about">
-              About
-            </a>
-            <a className="NavigationLink" href="/#/portfolio/experience">
-              Experience
-            </a>
-            <a className="NavigationLink" href="/#/portfolio/projects">
-              Projects
-            </a>
+            <Link to="/">
+              <span className="NavigationLink">Home</span>
+            </Link>
+            <Link to="/about">
+              <span className="NavigationLink">About</span>
+            </Link>
+            <Link to="/experience">
+              <span className="NavigationLink">Experience</span>
+            </Link>
+            <Link to="/projects">
+              <span className="NavigationLink">Projects</span>
+            </Link>
             <div className="PrimaryNavigationLink">
               <a
                 className="NavigationLink"

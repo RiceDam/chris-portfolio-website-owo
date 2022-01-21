@@ -30,7 +30,6 @@ function ProjectContainer(props) {
 export default function Projects() {
   return (
     <div className="ProjectsContainer">
-      <Navigation></Navigation>
       <div className="DivTitleDiv">
         <div className="DivTitle">
           <img src={StarLinkImg} />

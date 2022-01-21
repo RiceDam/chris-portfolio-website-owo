@@ -17,7 +17,7 @@
   --white: #ffffff;
 }
 
-.App {
+.AppContainer {
   background: #241f40;
   background-image: url(./img/stars.png);
   background: url(./img/stars.png),
@@ -31,6 +31,7 @@
   background-size: 100% auto;
   background-repeat: repeat-y;
   font-family: Raleway;
+  min-height: 100vh;
 }
 
 .IntroTitle {

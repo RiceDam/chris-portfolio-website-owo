@@ -2,14 +2,11 @@ import "../style/AboutPage.css";
 import StarLinkImg from "../img/star.svg";
 import PortfolioImg from "../img/me.png";
 import OutlineButton from "../components/OutlineButton";
-import Writing from "../components/Writing";
 import Navigation from "../components/Navigation";
 
 export default function AboutPage() {
   return (
     <div className="ProjectsContainer">
-      <Navigation></Navigation>
-
       <div className="AboutPageDiv">
         <div className="AboutMeDiv">
           <div className="DivTitle">
