@@ -56,21 +56,26 @@ export default function AboutPage() {
                 I am a graduate from the Computer Systems Technology program at
                 British Columbia Institute of Technology and I am currently in
                 my second year studying for my Bachelor of Arts in Interactive
-                Arts and Technology.
+                Arts and Technology at Simon Fraser University.
               </p>
 
               <p className="Body">
                 I am currently the UI/UX designer for British Columbia-based
                 startup Karma Well Health Technologies. We build products
                 seeking to help people in their wellness journeys. My favourite
-                UI design tool is Figma!
+                part of the job is learning something new on Figma, ideating
+                with the brightest minds I've ever had the pleasure of meeting,
+                and being in an environment that celebrates my authenticity and
+                creativity.
               </p>
 
               <p className="Body">
                 I am also a frontend developer. Some of my favourite
                 technologies include HTML, CSS, JavaScript, React, and the
                 Material UI library. Most of my projects are in Google Firebase
-                and I primarily use GitHub for version control.
+                and I primarily use GitHub for version control. I am currently
+                learning Angular, and hope to learn Vue.js and React Native as
+                well.
               </p>
 
               <p className="Body">
@@ -104,9 +109,24 @@ export default function AboutPage() {
                 With that being said, I am an avid gamer with hundreds of hours
                 on my two favourite video games, League of Legends and Teamfight
                 Tactics. I am a Platinum 4 Seraphine main and a Hyper Roll
-                enjoyer whose highest rank is Diamond 1 95 LP on Set 4.5. (Thank
-                you, 6-Keeper Kennen/Xayah comp!) Message me for my in-game
-                username and invite me to your ARAM lobbies!
+                enjoyer whose highest rank is Diamond 1 95 LP on Set 4.5 for
+                regular Ranked play. (Thank you, 6-Keeper Kennen/Xayah comp!)
+                Message me for my in-game username and invite me to your ARAM
+                lobbies!
+              </p>
+
+              <p className="Body">
+                What's my fixation with stars, you might be wondering? During a
+                time in my life where I felt the most lost, I turned to video
+                games for comfort. I met amazing new friends and gained a
+                confidence in myself and developed a certainty for myself that
+                I'm capable in my own right. There's a quote that I heard once
+                when playing Braum on League of Legends that changed my outlook
+                in life, "The darker the night, the brighter the stars." Ever
+                since then, my in-game username and online persona became
+                Astris, which derives from the Latin word for star, <i>astra</i>
+                . Even in the darkest times, I knew I would one day shine... or
+                burn bright trying.
               </p>
 
               <p className="Body">
@@ -115,6 +135,11 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+
+          <p className="Quote">
+            "The darker the night, the brighter the stars."
+          </p>
+          <br></br>
 
           <div className="ButtonsDiv">
             <OutlineButton

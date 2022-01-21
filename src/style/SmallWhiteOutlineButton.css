@@ -22,10 +22,10 @@
   -ms-transition: background 0.3s ease;
   transition: background 0.3s ease;
   border: 2px solid var(--dark-text);
-  -webkit-box-shadow: 2px 2px 0 var(--dark-text);
-  -moz-box-shadow: 2px 2px 0 var(--dark-text);
-  -ms-box-shadow: 2px 2px 0 var(--dark-text);
-  box-shadow: 2px 2px 0 var(--dark-text);
+  -webkit-box-shadow: 2px 2px 0 var(--light-text);
+  -moz-box-shadow: 2px 2px 0 var(--light-text);
+  -ms-box-shadow: 2px 2px 0 var(--light-text);
+  box-shadow: 2px 2px 0 var(--light-text);
 }
 
 .SmallOutlineButton:hover {

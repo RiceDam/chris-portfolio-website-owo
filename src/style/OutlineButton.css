@@ -1,6 +1,6 @@
 .OutlineButton {
   padding: 10px 20px;
-  text-decoration: none;
+  text-decoration: none !important;
   background: transparent;
   border: 2px solid var(--light-text);
   color: var(--light-text);

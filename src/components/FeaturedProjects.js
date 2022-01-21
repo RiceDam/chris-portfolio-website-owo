@@ -4,6 +4,7 @@ import PointedStarLinkImg from "../img/pointer-star.svg";
 import SmallOutlineButton from "./SmallOutlineButton";
 import "../style/FeaturedProjects.css";
 
+import { Link } from "react-router-dom";
 import KarmaSquare from "../img/project-img/karma-square.png";
 import BattleBuddySquare from "../img/project-img/battle-buddy-square.png";
 import ToursByLocalsSquare from "../img/project-img/tours-by-locals-square.png";
@@ -38,11 +39,12 @@ function FeaturedProjectItem(props) {
         </p>
         {props.ProjectButtonText && (
           <div className="SmallOutlineButtonDiv">
-            <SmallOutlineButton
-              class="SmallOutlineButton"
-              text={props.ProjectButtonText}
-              link={props.ProjectButtonLink}
-            ></SmallOutlineButton>
+            <Link to={props.ProjectButtonLink}>
+              <SmallOutlineButton
+                class="SmallOutlineButton"
+                text={props.ProjectButtonText}
+              ></SmallOutlineButton>
+            </Link>
           </div>
         )}
       </div>

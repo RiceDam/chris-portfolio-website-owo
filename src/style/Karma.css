@@ -1,0 +1,193 @@
+.KarmaHeaderImg > img {
+  width: 50%;
+  height: auto;
+}
+
+.KarmaContainer {
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+}
+
+.KarmaImg {
+  text-align: right;
+}
+
+.KarmaImg img {
+  width: 50%;
+}
+
+.KarmaColumn {
+  text-align: left;
+}
+
+.KarmaHeaderImg {
+  text-align: left;
+}
+
+.KarmaNavigation {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.KarmaNavigation a {
+  text-decoration: none;
+  color: var(--light-text);
+  font-family: "Bohemian Soul";
+  font-size: 20px;
+  padding: 10px;
+}
+
+.KarmaNavigation a:hover {
+  color: var(--primary);
+}
+
+.ParagraphContent {
+  padding-right: 80px;
+  padding-bottom: 40px;
+}
+
+.KarmaContent div a {
+  color: var(--light-text);
+  text-decoration-color: var(--light-text);
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+.KarmaContent div a:visited {
+  color: var(--light-text);
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+.KarmaVideo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.BodyTitle {
+  color: var(--light-text);
+  font-family: "Bohemian Soul";
+  font-size: 24px;
+}
+
+.KarmaContent div .Quote {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.CompetitiveContent {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.CompetitiveColumn {
+  width: calc(50% - 20px);
+  border-radius: 10px;
+  background-color: var(--secondary);
+  padding: 20px 20px 0px 20px;
+  padding-bottom: 0px !important;
+}
+
+.CompetitiveColumn .BodyTitle,
+.CompetitiveColumn .Body {
+  color: var(--dark-text);
+}
+
+.KarmaButtons {
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.UserPersona img {
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.UserPersona {
+  display: flex;
+  border-radius: 20px;
+  background-color: var(--terniary);
+  padding: 20px;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.UserPersona .Quote,
+.UserPersona .BodyTitle,
+.UserPersona .Body,
+.UserPersona > .UserPersonaColumn > a,
+.PrototypesColumn > a,
+.PrototypesColumn > .BodyTitle,
+.PrototypesColumn > .Body,
+.PrototypesColumn > .Body > a {
+  color: var(--dark-text) !important;
+}
+
+.PrototypesColumn > .Body > a {
+  text-decoration: underline;
+  text-decoration: var(--dark-text);
+}
+
+.UserPersonaImage {
+  text-align: center;
+  width: 20%;
+}
+
+.UserPersonaContent {
+  width: 80%;
+}
+
+.FeatureDiv {
+  background-color: var(--terniary);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.FeatureDiv .Body,
+.FeatureDiv .BodyTitle {
+  color: var(--dark-text);
+}
+
+.PrototypesContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+.PrototypesColumn {
+  width: calc(100% / 3);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--terniary);
+}
+
+.PrototypesColumn > img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .CompetitiveColumn {
+    width: 100%;
+  }
+}

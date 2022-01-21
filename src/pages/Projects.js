@@ -3,12 +3,14 @@ import StarLinkImg from "../img/star.svg";
 import Navigation from "../components/Navigation";
 import SmallOutlineButton from "../components/SmallOutlineButton";
 
+import { Link } from "react-router-dom";
 import ToursByLocalsImg from "../img/project-img/toursbylocals.png";
 import KarmaImg from "../img/project-img/karma.png";
 import BattleBuddyImg from "../img/project-img/battlebuddy.png";
 import ValorantPortfolio from "../img/project-img/portfolio.png";
 import ModernPortfolio from "../img/project-img/modernportfolio.png";
 import KidLaroi from "../img/project-img/kidlaroi.png";
+import { render } from "@testing-library/react";
 
 function ProjectContainer(props) {
   return (
@@ -18,10 +20,24 @@ function ProjectContainer(props) {
         <h2 className="ProjectTitle">{props.ProjectTitle}</h2>
         <p className="ProjectRole">{props.ProjectRole}</p>
         <p className="ProjectDescription">{props.ProjectDescription}</p>
-        <SmallOutlineButton
-          text={props.ProjectButtonText}
-          link={props.ProjectButtonLink}
-        ></SmallOutlineButton>
+        {props.InApp ? (
+          <div className="SmallOutlineButtonDiv">
+            <Link to={props.ProjectButtonLink}>
+              <SmallOutlineButton
+                class="SmallOutlineButton"
+                text={props.ProjectButtonText}
+              ></SmallOutlineButton>
+            </Link>
+          </div>
+        ) : (
+          <div className="SmallOutlineButtonDiv">
+            <SmallOutlineButton
+              class="SmallOutlineButton"
+              link={props.ProjectButtonLink}
+              text={props.ProjectButtonText}
+            ></SmallOutlineButton>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -40,7 +56,8 @@ export default function Projects() {
       <div className="ProjectsList">
         <div className="ProjectRow">
           <ProjectContainer
-            ProjectButtonLink="projects/karma"
+            InApp={true}
+            ProjectButtonLink="karma"
             ProjectButtonText="View case study"
             ProjectImg={KarmaImg}
             ProjectTitle="Karma - Case study"
@@ -48,7 +65,8 @@ export default function Projects() {
             ProjectRole="UI/UX Designer and Full-Stack Developer"
           ></ProjectContainer>
           <ProjectContainer
-            ProjectButtonLink="projects/battle-buddy"
+            InApp={true}
+            ProjectButtonLink="battle-buddy"
             ProjectButtonText="View insights"
             ProjectImg={BattleBuddyImg}
             ProjectTitle="Battle Buddy"
@@ -56,7 +74,8 @@ export default function Projects() {
             ProjectRole="UI/UX Designer and Front Developer"
           ></ProjectContainer>
           <ProjectContainer
-            ProjectButtonLink="projects/tours-by-locals"
+            InApp={true}
+            ProjectButtonLink="tours-by-locals"
             ProjectButtonText="View branding book"
             ProjectImg={ToursByLocalsImg}
             ProjectTitle="Tours by Locals - Branding and graphic design"
