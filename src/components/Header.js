@@ -12,7 +12,10 @@ function TitleHeader() {
           I am a UI/UX designer with a diploma in Computer Systems and a current
           SFU student studying Interactive Arts and Technology.
         </span>
-        <OutlineButton text="Contact me" link="#"></OutlineButton>
+        <OutlineButton
+          text="View my projects"
+          link="/portfolio/projects"
+        ></OutlineButton>
       </div>
     </div>
   );

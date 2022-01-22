@@ -36,16 +36,16 @@ function Navigation() {
             />
           </svg>
           <div className="Links">
-            <Link to="/">
+            <Link to="/" onClick={closeMenu}>
               <span>Home</span>
             </Link>
-            <Link to="/about">
+            <Link to="/about" onClick={closeMenu}>
               <span>About</span>
             </Link>
-            <Link to="/experience">
+            <Link to="/experience" onClick={closeMenu}>
               <span>Experience</span>
             </Link>
-            <Link to="/projects">
+            <Link to="/projects" onClick={closeMenu}>
               <span>Projects</span>
             </Link>
             <a href="https://drive.google.com/file/d/1sslvr0mTPN6C2zCdPdID72X5CEz3WLkb/view?usp=sharing">
