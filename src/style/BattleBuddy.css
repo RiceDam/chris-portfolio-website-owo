@@ -1,0 +1,10 @@
+.BattleBuddyImg {
+  gap: 40px;
+  display: flex;
+}
+
+.BattleBuddyImg > img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
