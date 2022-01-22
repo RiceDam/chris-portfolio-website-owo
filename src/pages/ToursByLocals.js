@@ -52,12 +52,16 @@ export default function ToursByLocals() {
         <h1 className="BigQuote"> Tours by Locals - Brand book</h1>
 
         <div className="KarmaVideo">
-          <ReactPlayer url="https://www.youtube.com/watch?v=SXgA0ueioyc"></ReactPlayer>
+          <ReactPlayer
+            width="100%"
+            height="400px"
+            url="https://www.youtube.com/watch?v=SXgA0ueioyc"
+          ></ReactPlayer>
         </div>
 
-        <div className="KarmaButtons">
+        <div style={{ marginBottom: "40px" }} className="KarmaButtons">
           <OutlineButton
-            text="View branding book on Google Slides"
+            text="View brand book on Google Slides"
             link="https://docs.google.com/presentation/d/1Y0yIELaRk8umhDGRmXWk-qIvS-1VZUlCDj4WMFqAqrQ/edit?usp=sharing"
           ></OutlineButton>
         </div>
