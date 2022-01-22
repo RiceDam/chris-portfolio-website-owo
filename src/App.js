@@ -36,7 +36,7 @@ export default function App() {
             ></Route>
             <Route
               exact
-              path="/projects/tours-by/locals"
+              path="/projects/tours-by-locals"
               element={<ToursByLocals />}
             ></Route>
           </Routes>

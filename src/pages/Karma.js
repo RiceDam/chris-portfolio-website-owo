@@ -760,10 +760,12 @@ export default function Karma() {
           </p>
         </div>
 
-        <span className="BodyTitle">
-          Interested in chatting more about my projects? Don't hesitate to reach
-          out!
-        </span>
+        <div style={{ textAlign: "center" }}>
+          <span className="BodyTitle">
+            Interested in chatting more about my projects? Don't hesitate to
+            reach out!
+          </span>
+        </div>
         <div className="KarmaButtons">
           <OutlineButton
             text="LinkedIn"
@@ -774,7 +776,6 @@ export default function Karma() {
             text="Email"
             link="mailto:christinaraganit@gmail.com"
           ></OutlineButton>
-          <OutlineButton text="Discord: Astris#2854"></OutlineButton>
         </div>
       </div>
     </div>

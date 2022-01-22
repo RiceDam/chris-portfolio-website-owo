@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./Cocogoose.ttf");
+}
+
+.CocogooseHeading {
+  font-family: "Cocogoose";
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.NunitoHeading {
+  font-family: "Nunito";
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.YesevaOneHeading {
+  font-family: "Yeseva One";
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.MoodBoardImg {
+  width: 100%;
+}
+
+.MoodBoardImg img {
+  width: 100%;
+}
+
+.TypographyInformation > .BodyTitle,
+.TypographyInformation > .Body {
+  color: var(--dark-text);
+  margin-top: 10px;
+}
+
+.Sketches,
+.LogoIterations {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.SketchesColumn {
+  width: 50%;
+}
+
+.LogoIterationsColumn {
+  width: calc(100% / 3);
+}
+
+.SketchesColumn > img,
+.LogoIterationsColumn > img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.LogoIterationsColumn > img {
+  margin-bottom: 10px;
+}
+
+.LogoSketches {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.LogoVariations {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.LogoVariationsColumn {
+  width: 20%;
+}
+
+.LogoVariationsColumn > img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.FinalLogoVariations {
+  width: 100%;
+}
+
+#Colours > img {
+  width: 100%;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.TypographyContainer {
+  display: flex;
+  gap: 20px;
+
+  flex-direction: column;
+}
+
+#BrandApplications > img,
+#BusinessCardLetterhead > img,
+#SocialMediaContent > img,
+#LandingPage > img,
+#Brochure > img {
+  width: 100%;
+}
+
+.TypographyColumn {
+  border-radius: 10px;
+  padding: 0px 20px;
+  background-color: var(--light-text);
+}

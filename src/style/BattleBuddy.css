@@ -8,3 +8,12 @@
   height: auto;
   border-radius: 10px;
 }
+
+.FinalLogoVariations {
+  display: flex;
+  gap: 20px;
+}
+
+.FinalLogoVariations > img {
+  width: 25%;
+}
