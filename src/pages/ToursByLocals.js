@@ -357,22 +357,22 @@ export default function ToursByLocals() {
           </p>
         </div>
 
-        <div style={{ textAlign: "center" }}>
+        <div className="ParagraphContent" style={{ textAlign: "center" }}>
           <span className="BodyTitle">
             Interested in chatting more about my projects? Don't hesitate to
             reach out!
           </span>
-        </div>
-        <div className="KarmaButtons">
-          <OutlineButton
-            text="LinkedIn"
-            link="linkedin.com/in/christinaraganit/"
-          ></OutlineButton>
+          <div className="KarmaButtons">
+            <OutlineButton
+              text="LinkedIn"
+              link="linkedin.com/in/christinaraganit/"
+            ></OutlineButton>
 
-          <OutlineButton
-            text="Email"
-            link="mailto:christinaraganit@gmail.com"
-          ></OutlineButton>
+            <OutlineButton
+              text="Email"
+              link="mailto:christinaraganit@gmail.com"
+            ></OutlineButton>
+          </div>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@
 }
 
 .ExperienceTitle {
-  font-family: Bohemian Soul;
+  font-family: "Bohemian Soul";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -29,7 +29,7 @@
 }
 
 .ExperienceLocation {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: italic;
   font-weight: 600;
   font-size: 16px;
@@ -190,7 +190,7 @@
   position: relative;
   text-transform: uppercase;
   font-size: 16px;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: italic;
   font-weight: 600;
   font-size: 16px;

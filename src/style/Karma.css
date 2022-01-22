@@ -65,11 +65,17 @@
 }
 
 .KarmaVideo {
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+.KarmaVideo > div {
+  width: 100%;
 }
 
 .BodyTitle {
@@ -108,6 +114,7 @@
   justify-content: center;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .UserPersona img {
@@ -145,7 +152,6 @@
 }
 
 .UserPersonaImage {
-  text-align: center;
   width: 20%;
 }
 
@@ -186,8 +192,62 @@
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1300px) {
+  .UserPersona {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .UserPersonaImage {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .UserPersonaContent {
+    width: 100%;
+  }
+
+  .UserPersona img {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .PrototypesColumn {
+    width: 100%;
+  }
+
+  .PrototypesContainer {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .CompetitiveColumn {
+    width: 100%;
+  }
+
+  .KarmaContainer {
+    gap: 50px;
+  }
+
+  .ParagraphContent {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .KarmaNavigation {
+    display: none;
+  }
+
+  .KarmaContent {
     width: 100%;
   }
 }

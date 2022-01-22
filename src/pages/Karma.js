@@ -32,7 +32,11 @@ export default function Karma() {
         <h1 className="BigQuote"> Karma - Case study</h1>
 
         <div className="KarmaVideo">
-          <ReactPlayer url="https://youtu.be/xaqc-vRulwQ"></ReactPlayer>
+          <ReactPlayer
+            width="100%"
+            height="400px"
+            url="https://youtu.be/xaqc-vRulwQ"
+          ></ReactPlayer>
         </div>
 
         <div className="ParagraphContent">
@@ -760,22 +764,22 @@ export default function Karma() {
           </p>
         </div>
 
-        <div style={{ textAlign: "center" }}>
+        <div className="ParagraphContent" style={{ textAlign: "center" }}>
           <span className="BodyTitle">
             Interested in chatting more about my projects? Don't hesitate to
             reach out!
           </span>
-        </div>
-        <div className="KarmaButtons">
-          <OutlineButton
-            text="LinkedIn"
-            link="linkedin.com/in/christinaraganit/"
-          ></OutlineButton>
+          <div className="KarmaButtons">
+            <OutlineButton
+              text="LinkedIn"
+              link="linkedin.com/in/christinaraganit/"
+            ></OutlineButton>
 
-          <OutlineButton
-            text="Email"
-            link="mailto:christinaraganit@gmail.com"
-          ></OutlineButton>
+            <OutlineButton
+              text="Email"
+              link="mailto:christinaraganit@gmail.com"
+            ></OutlineButton>
+          </div>
         </div>
       </div>
     </div>

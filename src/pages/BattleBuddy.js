@@ -4,6 +4,7 @@ import "../style/BattleBuddy.css";
 import OutlineButton from "../components/OutlineButton";
 import BattleBuddy1 from "../img/project-img/BattleBuddy1.png";
 import BattleBuddy2 from "../img/project-img/BattleBuddy2.png";
+import "../style/Karma.css";
 
 export default function BattleBuddy() {
   return (
@@ -25,7 +26,11 @@ export default function BattleBuddy() {
         </h1>
 
         <div className="KarmaVideo">
-          <ReactPlayer url="https://youtu.be/aaXVOvqsf8E"></ReactPlayer>
+          <ReactPlayer
+            width="100%"
+            height="400px"
+            url="https://youtu.be/aaXVOvqsf8E"
+          ></ReactPlayer>
         </div>
 
         <div id="Introduction" className="ParagraphContent">
@@ -189,22 +194,22 @@ export default function BattleBuddy() {
           </p>
         </div>
 
-        <div style={{ textAlign: "center" }}>
+        <div className="ParagraphContent" style={{ textAlign: "center" }}>
           <span className="BodyTitle">
             Interested in chatting more about my projects? Don't hesitate to
             reach out!
           </span>
-        </div>
-        <div className="KarmaButtons">
-          <OutlineButton
-            text="LinkedIn"
-            link="linkedin.com/in/christinaraganit/"
-          ></OutlineButton>
+          <div className="KarmaButtons">
+            <OutlineButton
+              text="LinkedIn"
+              link="linkedin.com/in/christinaraganit/"
+            ></OutlineButton>
 
-          <OutlineButton
-            text="Email"
-            link="mailto:christinaraganit@gmail.com"
-          ></OutlineButton>
+            <OutlineButton
+              text="Email"
+              link="mailto:christinaraganit@gmail.com"
+            ></OutlineButton>
+          </div>
         </div>
       </div>
     </div>

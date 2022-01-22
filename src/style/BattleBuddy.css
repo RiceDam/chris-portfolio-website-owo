@@ -17,3 +17,15 @@
 .FinalLogoVariations > img {
   width: 25%;
 }
+
+@media screen and (max-width: 1250px) {
+  .BattleBuddyImg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .BattleBuddyImg > img {
+    width: 100%;
+  }
+}
