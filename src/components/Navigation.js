@@ -36,16 +36,36 @@ function Navigation() {
             />
           </svg>
           <div className="Links">
-            <Link to="/" onClick={closeMenu}>
+            <Link
+              to="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+            >
               <span>Home</span>
             </Link>
-            <Link to="/about" onClick={closeMenu}>
+            <Link
+              to="/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+            >
               <span>About</span>
             </Link>
-            <Link to="/experience" onClick={closeMenu}>
+            <Link
+              to="/experience"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+            >
               <span>Experience</span>
             </Link>
-            <Link to="/projects" onClick={closeMenu}>
+            <Link
+              to="/projects"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+            >
               <span>Projects</span>
             </Link>
             <a href="https://drive.google.com/file/d/1u-gDM-HkO_jH4ls1bodWWji_FmmGQtJk/view?usp=sharing">
@@ -91,16 +111,16 @@ function Navigation() {
             </g>
           </svg>
           <div id="NavigationMenu" className="NavigationMenu">
-            <Link to="/">
+            <Link to="/" target="_blank" rel="noopener noreferrer">
               <span className="NavigationLink">Home</span>
             </Link>
-            <Link to="/about">
+            <Link to="/about" target="_blank" rel="noopener noreferrer">
               <span className="NavigationLink">About</span>
             </Link>
-            <Link to="/experience">
+            <Link to="/experience" target="_blank" rel="noopener noreferrer">
               <span className="NavigationLink">Experience</span>
             </Link>
-            <Link to="/projects">
+            <Link to="/projects" target="_blank" rel="noopener noreferrer">
               <span className="NavigationLink">Projects</span>
             </Link>
             <div className="PrimaryNavigationLink">

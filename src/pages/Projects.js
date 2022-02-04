@@ -22,7 +22,11 @@ function ProjectContainer(props) {
         <p className="ProjectDescription">{props.ProjectDescription}</p>
         {props.InApp ? (
           <div className="SmallOutlineButtonDiv">
-            <Link to={props.ProjectButtonLink}>
+            <Link
+              to={props.ProjectButtonLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <SmallOutlineButton
                 class="SmallOutlineButton"
                 text={props.ProjectButtonText}
