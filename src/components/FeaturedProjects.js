@@ -39,11 +39,7 @@ function FeaturedProjectItem(props) {
         </p>
         {props.ProjectButtonText && (
           <div className="SmallOutlineButtonDiv">
-            <Link
-              to={props.ProjectButtonLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to={props.ProjectButtonLink}>
               <SmallOutlineButton
                 class="SmallOutlineButton"
                 text={props.ProjectButtonText}
