@@ -10,12 +10,16 @@ import ToursByLocals from "./pages/ToursByLocals";
 import Navigation from "./components/Navigation";
 
 import ReactDOM from "react-dom";
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory();
+
 import { BrowserRouter, Routes, Navigate, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter history={history} basename="/portfolio">
         <div className="AppContainer">
           <Navigation></Navigation>
 
