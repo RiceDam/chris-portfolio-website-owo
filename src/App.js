@@ -10,12 +10,12 @@ import ToursByLocals from "./pages/ToursByLocals";
 import Navigation from "./components/Navigation";
 
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Navigate, Route } from "react-router-dom";
+import { HashRouter, Routes, Navigate, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
-      <BrowserRouter basename="/portfolio">
+      <HashRouter basename="/portfolio">
         <div className="AppContainer">
           <Navigation></Navigation>
 
@@ -41,7 +41,7 @@ export default function App() {
             ></Route>
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
