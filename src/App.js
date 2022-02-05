@@ -11,14 +11,20 @@ import Navigation from "./components/Navigation";
 
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
-import { BrowserRouter, Routes, Navigate, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Navigate,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 
 const history = createBrowserHistory();
 
 export default function App() {
   return (
     <div>
-      <BrowserRouter history={history} basename="/portfolio">
+      <HashRouter history={history}>
         <div className="AppContainer">
           <Navigation></Navigation>
 
@@ -38,7 +44,7 @@ export default function App() {
             ></Route>
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
