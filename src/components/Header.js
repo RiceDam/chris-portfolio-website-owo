@@ -1,5 +1,6 @@
 import "../style/Header.css";
 import OutlineButton from "./OutlineButton";
+import { Link } from "react-router-dom";
 import HeaderImage from "../img/IMG_1702.png";
 
 function TitleHeader() {
