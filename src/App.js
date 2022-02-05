@@ -11,10 +11,9 @@ import Navigation from "./components/Navigation";
 
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
+import { BrowserRouter, Routes, Navigate, Route } from "react-router-dom";
 
 const history = createBrowserHistory();
-
-import { BrowserRouter, Routes, Navigate, Route } from "react-router-dom";
 
 export default function App() {
   return (
@@ -24,22 +23,16 @@ export default function App() {
           <Navigation></Navigation>
 
           <Routes>
-            <Route exact path="/" element={<Home />}></Route>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/projects" element={<Projects></Projects>}></Route>
+            <Route path="/about" element={<AboutPage />}></Route>
+            <Route path="/experience" element={<Experience />}></Route>
+            <Route path="/projects/karma" element={<Karma />}></Route>
             <Route
-              exact
-              path="/projects"
-              element={<Projects></Projects>}
-            ></Route>
-            <Route exact path="/about" element={<AboutPage />}></Route>
-            <Route exact path="/experience" element={<Experience />}></Route>
-            <Route exact path="/projects/karma" element={<Karma />}></Route>
-            <Route
-              exact
               path="/projects/battle-buddy"
               element={<BattleBuddy />}
             ></Route>
             <Route
-              exact
               path="/projects/tours-by-locals"
               element={<ToursByLocals />}
             ></Route>
